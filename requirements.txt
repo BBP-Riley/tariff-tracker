@@ -6,5 +6,3 @@ plotly
 openpyxl
 google-cloud-firestore
 google-auth
-smtplib
-email
