@@ -13,7 +13,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # --- Google Firestore Setup (requires credentials file) ---
-credentials = service_account.Credentials.from_service_account_info(st.secrets["gcp_service_account"])
+credentials = service_account.Credentials.from_service_account_info(dict(st.secrets["gcp_service_account"]))
 db = firestore.Client(credentials=credentials, project=credentials.project_id)
 
 # --- UI Layout ---
