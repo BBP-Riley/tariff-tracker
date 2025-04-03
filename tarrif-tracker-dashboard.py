@@ -13,14 +13,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # --- Google Firestore Setup (requires credentials file) ---
-import json, base64
+import base64, json
 from google.oauth2 import service_account
 
-# Load base64-encoded key from secrets
 key_json = base64.b64decode(st.secrets["gcp_key_b64"]).decode("utf-8")
 key_data = json.loads(key_json)
-
-# Create credentials object
 credentials = service_account.Credentials.from_service_account_info(key_data)
 
 # --- UI Layout ---
