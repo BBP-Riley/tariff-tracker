@@ -20,6 +20,8 @@ key_json = base64.b64decode(st.secrets["gcp_key_b64"]).decode("utf-8")
 key_data = json.loads(key_json)
 credentials = service_account.Credentials.from_service_account_info(key_data)
 
+db = firestore.Client(credentials=credentials, project=key_data["project_id"])
+
 # --- UI Layout ---
 st.set_page_config(page_title="Global Tariff Tracker", layout="wide")
 st.title("🌎 Global Tariff Tracker Dashboard")
