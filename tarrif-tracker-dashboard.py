@@ -13,8 +13,15 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # --- Google Firestore Setup (requires credentials file) ---
-credentials = service_account.Credentials.from_service_account_info(dict(st.secrets["gcp_service_account"]))
-db = firestore.Client(credentials=credentials, project=credentials.project_id)
+import json, base64
+from google.oauth2 import service_account
+
+# Load base64-encoded key from secrets
+key_json = base64.b64decode(st.secrets["gcp_key_b64"]).decode("utf-8")
+key_data = json.loads(key_json)
+
+# Create credentials object
+credentials = service_account.Credentials.from_service_account_info(key_data)
 
 # --- UI Layout ---
 st.set_page_config(page_title="Global Tariff Tracker", layout="wide")
