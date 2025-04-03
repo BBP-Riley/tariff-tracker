@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bbp-tariff-tracker",
+  "private_key_id": "7033ee556aa6ae5055ece7f3687daa790447a422",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDYnCIoLf8aFbME\nYWm6Wh9e2mj1wa7WiUiYC64dX7M1+OqfDT89vVJG+RWqotOurYLuBqCm45j3enkS\nNCWmzO5XDsyR29bB9DKn/HZAq1WozeggpOl5lyCDz8A5DaD1ZmXK4HEvNaE7eddB\nd7+9/9kcXvle82+I61IzQ38PYlnIsJ2wSJS9WbVEtCkTG84NV/UXqfe4hw2GPDPK\nwATcCkiO7GnZBy3cNFCrdlyFPMeQTMPmShSkDJPKLfNs9a4AniNMH/NK6+kJMZlJ\nqIrdC8F4YtmxsnabdzMiirlDBitZJtgkfN3XLl4IsKDqf+FKtC4E9joDNFUKlYZN\nW9yr+21NAgMBAAECggEACYYp8VApGTru2rM0Ic5ly+Gjak+IZ2SfZWy5YeTBPY8I\nNT3w89RqdPZC8omuGuOEWtYTQ8CaS01eW+4g4VnoOTnhxaBf1mTX7QTKfUhF9Vdi\nYhG7i04EDw+i1noH2P/A24qtUgOpZx2nGOOR8cx5Ux2bmNtwIhojYd979iT0qNXY\ndEKu6QLsXtw1qKRQoW8CM9XZc/OVzaGYlRrXnW/L2lPFlhf7iPHgAZdNG/5SVf8K\nUI9wci3Tm/UxUjKxRm85P8lQWCwAUWUNsu5cgAFOod9xaiGRa50mrFTVuLKk7PTP\nBTMqVPdrG1KdMVvdblnqSdQow11ZiaPbB5s8V9nYkQKBgQD3NK62fPtQ3bkEy6mu\nbp8ZfOBIct2w7vRTS10WFmJMOzyrszJwgmMfiz3zvEspW6WYdCvRUTshCs2RHTTy\nGZnevOyS40lbPQjbpqT6zrWHZG6vaBxfBjBA2rX1oBlQk4LGUGtbxSEtB8+uMmnX\nV6xd6WIFiohPBvvtrNk6cCkBHQKBgQDgUM/2yJrbu9LUMCwKobVFGeu0/YjtX6OK\nd8C+OdCmD0TB5f5KYisw84Gpj2dgNiUJLJfXC+3fp65j8zH0o0EIa9JrEwVpXDAM\nBGvy0EbnkQqQef2pBTOsF1LgF4oqHpYDRc3eTewbV5Ela2eTX4KuXSXExIgFuAV6\nM+E3QVIV8QKBgQCN3XPuUic/rx6AvAgyjFVNoTZtHU5QPbGFI5jWFh5vNQeKWZo2\nqv0LmzMAbyyLHYcYyIJk60MNoU97WdGKplqBUtZJLZppe8tbknTXYk0W1/IVQ6AU\ngE6syVbnEOu2LBE+keQqlCSH3RW4GEJZTH0kn8ya9XdoMs/dA/bd7IP7mQKBgCk0\nzy8vZLsuwqj1/HEriYgbHeCOnoO0iO9b1k1bg4et0FyqKk9xvytr4ArM7BmReLY5\nud7oMxddzzxPJYMiJkUswWeoA9t58t2SRl5BgnTxgPZPYpiU+wwG8NN3n4rjOX16\najoHKHNRX7l3BHzfE7uCIvkFfVNHncH4G8wxtKmRAoGBAOv0bWsSLNVe5HMRaGf4\nd55b9Ky8H4zFw7i8IjK7xhYLSHmiYqeOE4vk1uPmQasZEnQ5f5doy96AZqEwMQ8s\nfHuPhAVgYXPUWsQKqeGJ/zLwT7aTzilQmvgCTU6IckkxWLkaNZp64qWKnimLcyMQ\npQpfB1f9WHEJObcT9qJpIdpf\n-----END PRIVATE KEY-----\n",
+  "client_email": "bbp-tariff-tracker@bbp-tariff-tracker.iam.gserviceaccount.com",
+  "client_id": "109300334450396640740",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bbp-tariff-tracker%40bbp-tariff-tracker.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
